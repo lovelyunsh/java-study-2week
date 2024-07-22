@@ -31,7 +31,7 @@ public class TodoRepositoryImpl implements TodoRepository {
 
     @Override
     public List<Todo> readAll() {
-        return todoJpaRepository.findAllOrderByCreatedAtDesc();
+        return todoJpaRepository.findAllByOrderByCreatedAtDesc();
     }
 
     @Override
