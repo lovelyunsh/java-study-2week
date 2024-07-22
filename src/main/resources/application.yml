@@ -4,7 +4,7 @@ spring:
       enabled: true
 
   datasource:
-    url: jdbc:h2:tcp://192.168.75.15:8082/~/todo
+    url: jdbc:h2:tcp://localhost/~/todo
     username: sa
     password:
     driver-class-name: org.h2.Driver
